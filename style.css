@@ -36,24 +36,26 @@ section.module.parallax {
 }
 section.module.parallax h1 {
   font-family: 'PT Sans Narrow', sans-serif;
-  color: #1e1e1e;
+  color: white;
   font-size: 48px;
   line-height: 1;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  text-shadow: 0 0 10px white;
+  text-shadow: 0 0 10px #1e1e1e;
+  margin-bottom: 4px;
 }
 
 section.module.parallax h5 {
   font-family: 'PT Sans Narrow', sans-serif;
-  color: #1e1e1e;
-  font-size: 48px;
+  color: white;
+  font-size: 24px;
   line-height: 1;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  text-shadow: 0 0 10px white;
+  text-shadow: 0 0 10px #1e1e1e;
+  margin-top: 24px; 
 }
 section.module.parallax-1 {
   background-image: url("images/brooklyn-bridge-BW.jpg");
@@ -62,17 +64,31 @@ section.module.parallax-1 {
 }
 
 section.module.parallax-2 {
-  background-image: url("images/brooklyn-bridge-2.jpg");
-
-  background-position: center center; 
+  background-image: url("images/type_writer.jpg");
+      background-size: cover;
+    background-repeat: repeat;
+  /*background-position: center center; */
 
 }
-
 section.module.parallax-3 {
-  background-image: url("images/brooklyn-bridge-BW.jpg");
+  background-image: url("images/abstract_lighting.jpg");
   background-position: center center; 
 
 }
+
+section.module.parallax-4{
+  background-image: url("images/rose.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+
+}
+section.module.parallax-5 {
+  background-image: url("images/ducks.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+
+}
+
 
 @media all and (min-width: 600px) {
   section.module h2 {
@@ -86,17 +102,16 @@ section.module.parallax-3 {
   }
   section.module.parallax h1 {
     font-size: 96px;
-    /*color:white;*/
-    font-family: 'PT Sans Narrow', sans-serif;
   }
   section.module.parallax h5 {
-    font-size: 96px;
-    color:white;
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 48px;
   }
 }
 @media all and (min-width: 960px) {
   section.module.parallax h1 {
     font-size: 160px;
+  }
+  section.module.parallax h5 {
+    font-size: 80px;
   }
 }
