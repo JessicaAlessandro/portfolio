@@ -13,7 +13,5 @@ window.onload = function() {
       el.style.backgroundPosition = elBackgrounPos;
 
     });
-  };
-
- 
+  }; 
 };

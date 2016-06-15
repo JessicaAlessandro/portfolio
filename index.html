@@ -4,26 +4,32 @@
     <title>Jessica Alessandro</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic-ext,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script type="text/javascript" src="app.js"></script>
+      <link rel="icon" type="img" href="images/JA.png">
 
 </head>
 <body>
-       <div class="content-pusher">
+
+  <div class="content-pusher">
             <div class="nav-container">
                 <nav class="nav-menu">
                     <div class="logo"></div>
                     <ul>
-                        <li><a href="#home" class="scroll-btn">Home</a></li>
-                        <li><a href="#skills" class="scroll-btn">Skills</a></li>
+                        <li><a href="#about" class="scroll-btn">About</a></li>
                         <li><a href="#resume" class="scroll-btn">Resume</a></li>
-                        <li><a href="#education" class="scroll-btn">Education</a>
+                        <li><a href="#education" class="scroll-btn">Education</a></li>
+                        <li><a href="#skills" class="scroll-btn">Skills</a></li>
                         <li><a href="#projects" class="scroll-btn">Projects</a></li>
                         <li><a href="#contact" class="scroll-btn">Contact</a></li>
+
                     </ul>
                 </nav>
             </div>
 
-    <section id="home" class="module parallax parallax-1">
+
+
+    <section class="module parallax parallax-1">
       <div class="container">
         <h1>Jessica Alessandro</h1>
         <hr>
@@ -31,7 +37,7 @@
       </div>
     </section>
 
-    <section class="module content">
+    <section id="about" class="module content">
       <div class="container">
         <p><strong> Hi, I'm Jessica. </strong></p>
         <p>Vinyl keffiyeh ramps, YOLO sustainable marfa post-ironic gochujang lo-fi ugh VHS. Plaid pickled tousled wolf, actually gluten-free keytar bespoke single-origin coffee lo-fi mlkshk aesthetic man bun drinking vinegar ramps. Church-key portland vinyl literally, trust fund cardigan austin viral. Everyday carry distillery ramps vice, 3 wolf moon drinking vinegar +1. Keytar put a bird on it kinfolk bushwick man bun flannel, tote bag disrupt cornhole blog 8-bit waistcoat poutine. Distillery hoodie street art, etsy williamsburg synth quinoa kale chips readymade craft beer. Ugh messenger bag 3 wolf moon, flannel authentic fingerstache health goth narwhal literally bitters DIY actually godard gochujang man braid.</p>
@@ -40,20 +46,7 @@
       </div>
 
     </section>
-     <section id="skills" class="module parallax parallax-2">
-      <div class="container">
-        <h1>Skills</h1>
-      </div>
-    </section>
-
-    <section class="module content">
-      <div class="container">
-        <h2>Lorem Ipsum Dolor</h2>
-        <p>Lorem ipsum dolor...</p>
-      </div>
-    </section>
-
-    <section id="resume" class="module parallax parallax-3">
+     <section id="resume" class="module parallax parallax-2">
       <div class="container">
         <h1>Resume</h1>
       </div>
@@ -61,12 +54,14 @@
 
     <section class="module content">
       <div class="container">
-        <h2>Lorem Ipsum Dolor</h2>
-        <p>Lorem ipsum dolor...</p>
+
+
+
       </div>
+ 
     </section>
 
-    <section id="education" class="module parallax parallax-4">
+    <section id="education" class="module parallax parallax-3">
       <div class="container">
         <h1>Education</h1>
       </div>
@@ -75,7 +70,66 @@
     <section class="module content">
       <div class="container">
         <h2>Lorem Ipsum Dolor</h2>
-        <p></p>
+        <p>Salami alcatra porchetta kevin flank jerky tail cow shank capicola frankfurter filet mignon boudin chicken. Fatback beef jowl, alcatra capicola chicken tongue pork belly landjaeger ham hock beef ribs pork loin. Hamburger shank jerky, kevin short loin corned beef ham meatball. Tenderloin jowl chicken drumstick, flank meatloaf sirloin rump kevin.</p>
+      </div>
+    </section>
+
+    <section id="skills" class="module parallax parallax-4">
+      <div class="container">
+        <h1>Skills</h1>
+      </div>
+    </section>
+
+    <section class="module content">
+      <div class="container" id="skill">
+
+      
+        <div class="skill-container">
+          <h4 class="progress-label">HTML/CSS</h4>
+          <div class="progress">
+            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+              90%
+            </div>
+          </div>
+        </div>
+
+
+        <div class="skill-container">
+          <h4 class="progress-label">JavaScript</h4>
+          <div class="progress">
+            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+              85%
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-container">
+          <h4 class="progress-label">jQuery</h4>
+          <div class="progress">
+            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+              75%
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-container">
+          <h4 class="progress-label">Ruby</h4>
+          <div class="progress">
+            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+              70%
+            </div>
+          </div>
+        </div>
+
+                <div class="skill-container">
+          <h4 class="progress-label">Rails</h4>
+          <div class="progress">
+            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+              70%
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
 
@@ -88,7 +142,7 @@
     <section class="module content">
       <div class="container">
         <h2>Lorem Ipsum Dolor</h2>
-        <p>Lorem ipsum dolor...</p>
+        <p>Ribeye beef kevin, turducken jerky pork kielbasa prosciutto t-bone biltong. Hamburger bresaola beef, tri-tip tail shoulder landjaeger ribeye pastrami beef ribs shankle tenderloin ham hock short loin. Jowl rump pig sirloin kevin meatball. Hamburger short loin andouille tenderloin pork chop. Sirloin pork chop ground round brisket sausage frankfurter andouille. Tongue t-bone ground round shank, pastrami sirloin pork ham hock pork chop jowl.</p>
       </div>
     </section>
 
@@ -117,7 +171,7 @@
           <p class="icon-text">Email</p>
         </a>
       </div>
-        <footer> &copy; 2015 Built with &hearts; by Jessica Alessandro</footer>
+        <footer> &copy; 2016 Built with &hearts; by Jessica Alessandro</footer>
 
     </section>    
 </body>
