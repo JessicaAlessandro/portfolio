@@ -120,8 +120,8 @@ section.module.parallax-2 {
 
 section.module.parallax-3 {
   background-image: url("images/type_writer.jpg");
-  background-position: center; 
- background-size:100%;
+  background-size: cover;
+    background-position: center; 
 
 }
 section.module.parallax-4 {
@@ -176,10 +176,10 @@ section.module.parallax-6 {
 .icon{
   color:  white;
   border: none;
-  height: 80px;
+  max-height: 80px;
   margin: 0 10px;
   padding: 10px;
-  width: auto;
+  max-width: auto;
   vertical-align: middle;
 }
 .contact{
@@ -221,6 +221,14 @@ section.module.parallax-6 {
 
 .education-experiences h4{
   font-size: 24px;
+}
+
+.other-skills{
+  text-decoration: underline;
+}
+
+.glyphicon.glyphicon-flash{
+  font-size: 12px;
 }
 
 footer {
