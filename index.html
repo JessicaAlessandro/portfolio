@@ -4,11 +4,12 @@
     <title>Jessica Alessandro</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic-ext,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/1.0.1/progressbar.js>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="app.js"></script>
       <link rel="icon" type="img" href="images/JA.png">
-
 </head>
 <body>
 
@@ -80,12 +81,12 @@
                   <span>September 2015 - December 2015</span>
               </div>
           </div>
-          <p>At General Assembly, I was a full-time web development student. In addition to learning a number of technologies, languages, databases, and frameworks, I built and deployed a number of projects, which you can find below. </p>
+          <p>At General Assembly, I was a full-time web development student. In addition to learning a number of technologies, languages, databases, and frameworks, I built and deployed a number of projects, which you can find <a href="#projects" class="scroll-btn">below</a>. </p>
         </div>
 
         <div class="work-experiences-container">
         <br>
-          <span class="work-category">Additional Work Experience</span>
+          <span class="work-category">Other Work Experience</span>
 
           <div class="work-experiences-title">
               <div class="expreience-first">
@@ -258,8 +259,39 @@
 
     <section class="module content">
       <div class="container">
-        <h2>Lorem Ipsum Dolor</h2>
-        <p>Ribeye beef kevin, turducken jerky pork kielbasa prosciutto t-bone biltong. Hamburger bresaola beef, tri-tip tail shoulder landjaeger ribeye pastrami beef ribs shankle tenderloin ham hock short loin. Jowl rump pig sirloin kevin meatball. Hamburger short loin andouille tenderloin pork chop. Sirloin pork chop ground round brisket sausage frankfurter andouille. Tongue t-bone ground round shank, pastrami sirloin pork ham hock pork chop jowl.</p>
+        <div class="carousel-container">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Carousel indicators -->
+              <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                  <li data-target="#myCarousel" data-slide-to="3"></li>
+              </ol>   
+              <!-- Wrapper for carousel items -->
+              <div class="carousel-inner">
+                  <div class="item active">
+                      <img src="images/Trip-a-dee.png" alt="Trip-a-dee">
+                  </div>
+                  <div class="item">
+                      <img src="images/outdoor_boozin.png" alt="Outdoor Boozin'">
+                  </div>
+                  <div class="item">
+                      <img src="images/Todo_list_app.png" alt="To Do List">
+                  </div>
+                  <div class="item">
+                      <img src="images/Blog-app.png" alt="Blog">
+                  </div>
+              </div>
+              <!-- Carousel controls -->
+              <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+              <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -288,6 +320,7 @@
           <p class="icon-text">Email</p>
         </a>
       </div>
+      <p></p>
         <footer> &copy; 2016 Built with &hearts; by Jessica Alessandro</footer>
 
     </section>    

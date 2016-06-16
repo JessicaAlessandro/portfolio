@@ -22,6 +22,8 @@ html,body {
   line-height: 50px; 
   position: fixed;
   width:100%;
+  z-index:10;
+  background: inherit;
 }
 
 .nav-container ul{
@@ -107,8 +109,8 @@ section.module.parallax h5 {
 
 section.module.parallax-1 {
   background-image: url("images/brooklyn-bridge-BW.jpg");
-    background-size: inherit;
-    background-position: center center; 
+  background-size: inherit;
+  background-position: center center; 
 
 }
 
@@ -121,7 +123,7 @@ section.module.parallax-2 {
 section.module.parallax-3 {
   background-image: url("images/type_writer.jpg");
   background-size: cover;
-    background-position: center; 
+  background-position: center; 
 
 }
 section.module.parallax-4 {
@@ -132,8 +134,8 @@ section.module.parallax-4 {
 
 section.module.parallax-5{
   background-image: url("images/rose.jpg");
-    background-size: cover;
-    background-repeat: repeat;
+  background-size: cover;
+  background-repeat: repeat;
 
 }
 section.module.parallax-6 {
@@ -244,6 +246,16 @@ section.module.parallax-6 {
   text-decoration: underline;
 }
 
+.work-experiences-container a{
+  color: white;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-decoration: none;
+}
+
+.work-experiences-container a:hover{
+  color: #5BC0DE;
+}
+
 footer {
   color:white;
   font-family: 'PT Sans Narrow', sans-serif;
@@ -251,4 +263,17 @@ footer {
   font-weight: 300;
   margin-top: 50px;
   text-align: center;
+}
+
+/* ============================================================
+  SLIDESHOW
+============================================================ */
+
+.carousel .item img{
+  margin: 0 auto;
+}
+.carousel-container{
+  margin: 40px;
+  z-index:5;
+  overflow:auto;
 }

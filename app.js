@@ -1,4 +1,3 @@
-
 window.onload = function() {
 
   var parallax = document.querySelectorAll(".parallax"),
@@ -14,4 +13,4 @@ window.onload = function() {
 
     });
   }; 
-};
+}
