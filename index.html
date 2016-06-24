@@ -9,7 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="app.js"></script>
-      <link rel="icon" type="img" href="images/JA.png">
+      <link rel="icon" type="img" href="assets/JA.png">
 </head>
 <body>
 
@@ -22,7 +22,7 @@
                         <li><a href="#resume" class="scroll-btn">Resume</a></li>
                         <li><a href="#education" class="scroll-btn">Education</a></li>
                         <li><a href="#skills" class="scroll-btn">Skills</a></li>
-                        <li><a href="#projects" class="scroll-btn">Projects</a></li>
+                        <li><a href="#projects" class="scroll-btn">Projects/Work</a></li>
                         <li><a href="#contact" class="scroll-btn">Contact</a></li>
 
                     </ul>
@@ -41,10 +41,19 @@
 
     <section id="about" class="module content">
       <div class="container">
-        <p><strong> Hi, I'm Jessica. </strong></p>
-        <p>Vinyl keffiyeh ramps, YOLO sustainable marfa post-ironic gochujang lo-fi ugh VHS. Plaid pickled tousled wolf, actually gluten-free keytar bespoke single-origin coffee lo-fi mlkshk aesthetic man bun drinking vinegar ramps. Church-key portland vinyl literally, trust fund cardigan austin viral. Everyday carry distillery ramps vice, 3 wolf moon drinking vinegar +1. Keytar put a bird on it kinfolk bushwick man bun flannel, tote bag disrupt cornhole blog 8-bit waistcoat poutine. Distillery hoodie street art, etsy williamsburg synth quinoa kale chips readymade craft beer. Ugh messenger bag 3 wolf moon, flannel authentic fingerstache health goth narwhal literally bitters DIY actually godard gochujang man braid.</p>
-        <p>
-        Post-ironic wolf cred, lo-fi readymade whatever you probably haven't heard of them. Meggings iPhone humblebrag banh mi sartorial food truck. Authentic locavore deep v, fap cred street art portland tousled lumbersexual hammock single-origin coffee thundercats. Crucifix chicharrones four loko fap small batch viral. Readymade cray fingerstache farm-to-table green juice hella, kogi gochujang. Shoreditch salvia flannel polaroid kickstarter. Venmo bitters put a bird on it typewriter post-ironic.</p>
+        <p class="bio"><strong> Hi, I'm Jessica. </strong><br>
+        I'm a web developer living in New York City. I'm a problem solver who is not afraid of a challenge. Ruby on Rails is my one true love, but we have an arrangement, so I'm open to other frameworks as well. 
+        <br>
+        I'm not a fan of writing about myself so here's a few fun facts:
+
+          <li>I love dogs. All dogs. No matter size or breed.</li>
+          <li>I love to travel. I've been to over 10 countries and counting!</li>
+          <li>I am a huge trivia buff. I love playing whether at a bar during trivia night or yelling answers at the TV during Jeopardy.</li>
+          <li>I appreciate a good gif! </li>
+        <br>
+        <p>Thanks for reading!</p>
+        <img class="gif" src="assets/giphy.gif" alt="blankimage">
+        </p>
       </div>
 
     </section>
@@ -253,7 +262,7 @@
 
     <section id="projects" class="module parallax parallax-5">
       <div class="container">
-        <h1>Projects</h1>
+        <h1>Projects & Work</h1>
       </div>
     </section>
 
@@ -262,25 +271,44 @@
         <div class="carousel-container">
           <div id="myCarousel" class="carousel slide" data-ride="carousel">
               <!-- Carousel indicators -->
-              <ol class="carousel-indicators">
+             <!--  <ol class="carousel-indicators">
                   <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                   <li data-target="#myCarousel" data-slide-to="1"></li>
                   <li data-target="#myCarousel" data-slide-to="2"></li>
                   <li data-target="#myCarousel" data-slide-to="3"></li>
-              </ol>   
+                  <li data-target="#myCarousel" data-slide-to="4"></li>
+              </ol>    -->
               <!-- Wrapper for carousel items -->
               <div class="carousel-inner">
                   <div class="item active">
-                      <img src="images/Trip-a-dee.png" alt="Trip-a-dee">
+                      <img src="assets/Trip-a-dee.png" alt="Trip-a-dee">
+                      <div>
+                        <p> A application that allows users to create itineraries for any city in the world using the Google Maps API. Markers are dynamically populated on the map based on the locations the user saves to his/her itinerary. Trip-a-dee was built using MongoDB, Express.js, jQuery, and Bootstrap that allows users to create itineraries for any city in the world.</p>
+                      </div>
                   </div>
                   <div class="item">
-                      <img src="images/outdoor_boozin.png" alt="Outdoor Boozin'">
+                      <img src="assets/outdoor_boozin.png" alt="Outdoor Boozin'">
+                      <div>
+                        <p>  An application that uses the Weather Underground API and the Google Maps API. It locates bars and restaurants with outdoor seating by zip code, but only if the temperature outside is above 60°F.</p>
+                      </div>
                   </div>
                   <div class="item">
-                      <img src="images/Todo_list_app.png" alt="To Do List">
+                      <img src="assets/EIC-payment-form.png" alt="EIC Payment Form">
+                      <div>
+                        <p> In addition to working on other features at Eat In Chef, I re-created the booking payment form using ReactJS and Redux that allows a user to either select an existing credit card or add a new one which will be stored to the database.</p>
+                      </div>
                   </div>
                   <div class="item">
-                      <img src="images/Blog-app.png" alt="Blog">
+                      <img src="assets/Todo_list_app.png" alt="To Do List">
+                      <div>
+                        <p> A CRUD (CREATE, READ, UPDATE, DESTROY) To Do List application built with MongoDB, Express.js and Angular, and Bootstrap.</p>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <img src="assets/Blog-app.png" alt="Blog">
+                      <div>
+                        <p> A full stack blog application built with Ruby on Rails and Pure CSS. It has basic CRUD functionality and uses the devise gem to create users.  LINK</p>
+                      </div>
                   </div>
               </div>
               <!-- Carousel controls -->
@@ -304,23 +332,25 @@
     <section class="module content contact">
       <div class="container contact-container">
         <a href="https://www.linkedin.com/in/jessicaalessandro">
-          <img src="images/linkedin-icon.png" class="icon">
+          <img src="assets/linkedin-icon.png" class="icon">
           <p class="icon-text">LinkedIn</p>
         </a>
         <a href="https://github.com/JessicaAlessandro">
-          <img src="images/github-icon.png" class="icon">
+          <img src="assets/github-icon.png" class="icon">
           <p class="icon-text">GitHub</p>
         </a>
         <a href="https://profiles.generalassemb.ly/jessica-alessandro">
-          <img src="images/General-Assembly-Logo.png" class="icon">
+          <img src="assets/General-Assembly-Logo.png" class="icon">
           <p class="icon-text">GA Profile</p>
         </a>
         <a href="mailto:WebDevJessica@gmail.com">
-          <img src="images/email-icon.png" class="icon">
+          <img src="assets/email-icon.png" class="icon">
           <p class="icon-text">Email</p>
         </a>
-      </div>
-      <p></p>
+      </div>      
+      <p class="resume"> 
+        <a href="assets/Jessica-Alessandro-Resume.pdf" target="_blank"> Download my resume here.</a></p>
+
         <footer> &copy; 2016 Built with &hearts; by Jessica Alessandro</footer>
 
     </section>    

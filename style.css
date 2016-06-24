@@ -108,38 +108,38 @@ section.module.parallax h5 {
 }
 
 section.module.parallax-1 {
-  background-image: url("images/brooklyn-bridge-BW.jpg");
+  background-image: url("assets/brooklyn-bridge-BW.jpg");
   background-size: inherit;
   background-position: center center; 
 
 }
 
 section.module.parallax-2 {
-  background-image: url("images/flowers.jpg");
+  background-image: url("assets/flowers.jpg");
   background-position: center center; 
   background-size:100%;
 }
 
 section.module.parallax-3 {
-  background-image: url("images/type_writer.jpg");
+  background-image: url("assets/type_writer.jpg");
   background-size: cover;
   background-position: center; 
 
 }
 section.module.parallax-4 {
-  background-image: url("images/abstract_lighting.jpg");
+  background-image: url("assets/abstract_lighting.jpg");
   background-position: center center; 
 
 }
 
 section.module.parallax-5{
-  background-image: url("images/rose.jpg");
+  background-image: url("assets/rose.jpg");
   background-size: cover;
   background-repeat: repeat;
 
 }
 section.module.parallax-6 {
-  background-image: url("images/ducks.jpg");
+  background-image: url("assets/ducks.jpg");
   background-position: center center; 
   background-size:100%;
 
@@ -174,7 +174,23 @@ section.module.parallax-6 {
 /* ============================================================
   SECTIONS
 ============================================================ */
+.bio{
+  margin: 0px;
+}
 
+.container li{
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.gif{
+  display: block;
+  margin: auto;
+}
+
+.fun-facts{
+  font-size: 16px
+}
 .icon{
   color:  white;
   border: none;
@@ -256,6 +272,23 @@ section.module.parallax-6 {
   color: #5BC0DE;
 }
 
+.resume{
+  color: white;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.resume a:link,
+.resume a:visited,
+.resume a:active{
+  color: white;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.resume a:hover{
+  color: #5BC0DE;
+}
+
+
 footer {
   color:white;
   font-family: 'PT Sans Narrow', sans-serif;
@@ -274,6 +307,10 @@ footer {
 }
 .carousel-container{
   margin: 40px;
-  z-index:5;
-  overflow:auto;
+  z-index: 5;
+  overflow: auto;
+}
+
+.carousel-indicators{
+
 }
