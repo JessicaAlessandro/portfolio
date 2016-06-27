@@ -109,42 +109,34 @@ section.module.parallax h5 {
 
 section.module.parallax-1 {
   background-image: url("assets/brooklyn-bridge-BW.jpg");
-  background-size: inherit;
-  background-position: center center; 
-
+  background-size: cover;
 }
 
 section.module.parallax-2 {
   background-image: url("assets/flowers.jpg");
-  background-position: center center; 
-  background-size:100%;
+  background-size: cover;
 }
 
 section.module.parallax-3 {
   background-image: url("assets/type_writer.jpg");
   background-size: cover;
-  background-position: center; 
-
 }
+
 section.module.parallax-4 {
   background-image: url("assets/abstract_lighting.jpg");
-  background-position: center center; 
-
+  background-size: cover;
 }
 
 section.module.parallax-5{
   background-image: url("assets/rose.jpg");
   background-size: cover;
-  background-repeat: repeat;
 
 }
 section.module.parallax-6 {
   background-image: url("assets/ducks.jpg");
-  background-position: center center; 
-  background-size:100%;
-
+  background-size: cover;
 }
-
+/*
 @media all and (min-width: 600px) {
   section.module h2 {
     font-size: 42px;
@@ -169,7 +161,7 @@ section.module.parallax-6 {
   section.module.parallax h5 {
     font-size: 80px;
   }
-
+*/
 
 /* ============================================================
   SECTIONS
@@ -200,6 +192,7 @@ section.module.parallax-6 {
   max-width: auto;
   vertical-align: middle;
 }
+
 .contact{
   text-align: center;
 }
@@ -309,8 +302,4 @@ footer {
   margin: 40px;
   z-index: 5;
   overflow: auto;
-}
-
-.carousel-indicators{
-
 }
