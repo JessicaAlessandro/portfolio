@@ -136,16 +136,10 @@ section.module.parallax-6 {
   background-image: url("assets/ducks.jpg");
   background-size: cover;
 }
-/*
+
 @media all and (min-width: 600px) {
   section.module h2 {
     font-size: 42px;
-  }
-  section.module p {
-    font-size: 20px;
-  }
-  section.module.parallax {
-    padding: 300px 0;
   }
   section.module.parallax h1 {
     font-size: 96px;
@@ -154,14 +148,14 @@ section.module.parallax-6 {
     font-size: 48px;
   }
 }
-@media all and (min-width: 960px) {
+/*@media all and (min-width: 960px) {
   section.module.parallax h1 {
     font-size: 160px;
   }
   section.module.parallax h5 {
     font-size: 80px;
-  }
-*/
+  }*/
+
 
 /* ============================================================
   SECTIONS
